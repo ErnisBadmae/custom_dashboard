@@ -1,3 +1,5 @@
+import Chart from '../../components/chart/Chart';
+import Featured from '../../components/featured/Featured';
 import NavBar from '../../components/navbar/NavBar';
 import SideBar from '../../components/sidebar/SideBar';
 import Widget from '../../components/widget/Widget';
@@ -16,7 +18,8 @@ function Home(props) {
           <Widget type="balance"/>
         </div>
         <div className="charts">
-          
+          <Featured />
+          <Chart />
         </div>
       </div>
     </div>
