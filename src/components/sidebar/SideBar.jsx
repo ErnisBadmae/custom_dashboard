@@ -19,61 +19,82 @@ function SideBar(props) {
       <hr />
       <div className="center">
         <ul>
-          <p className="title">MAIN</p>
+          <p className="title">ГЛАВНАЯ</p>
           <li>
-            <HomeIcon className='icon'/>
-            <span>Dashboard</span>
+            <HomeIcon className="icon" />
+            <span>Подтверждение Добросовестности СДС (Заявление СДС)</span>
           </li>
-          <p className="title">LISTS</p>
+          <li>
+            <HomeIcon className="icon" />
+            <span>Оценка Компетенций ОС (Заявление ОС)</span>
+          </li>
+          <li>
+            <HomeIcon className="icon" />
+            <span>Сертификация (Заявление Сертификация)</span>
+          </li>
+          <li>
+            <HomeIcon className="icon" />
+            <span>Аттестация Эксперта</span>
+          </li>
+
+          <p className="title">СПИСОК РЕЕСТРОВ</p>
 
           <li>
-            <PersonOutlineOutlinedIcon  className='icon'/>
-            <span>Users</span>
+            <PersonOutlineOutlinedIcon className="icon" />
+            <span>Реестр СДС</span>
           </li>
           <li>
-            <ViewInArOutlinedIcon  className='icon'/>
-            <span>Products</span>
+            <ViewInArOutlinedIcon className="icon" />
+            <span>Реестр ОС</span>
           </li>
-          <p className="title">USEFUL</p>
+          <li>
+            <ViewInArOutlinedIcon className="icon" />
+            <span>Реестр Сертификатов</span>
+          </li>
+          <li>
+            <ViewInArOutlinedIcon className="icon" />
+            <span>Реестр Экспертов</span>
+          </li>
+          <p className="title">ПОЛЬЗОВАТЕЛЬСКИЙ ИНТЕРФЕЙС</p>
 
           <li>
-            <WorkspacesOutlinedIcon  className='icon'/>
-            <span>Orders</span>
+            <WorkspacesOutlinedIcon className="icon" />
+            <span>Сообщения</span>
           </li>
           <li>
-            <NotificationsNoneOutlinedIcon  className='icon'/>
-            <span>Notifications</span>
+            <NotificationsNoneOutlinedIcon className="icon" />
+            <span>Пользователи</span>
           </li>
-          <p className="title">SERVICE</p>
+          <p className="title">СЕРВИСЫ</p>
 
           <li>
-            <SettingsSystemDaydreamOutlinedIcon  className='icon'/>
-            <span>System Health</span>
+            <SettingsSystemDaydreamOutlinedIcon className="icon" />
+            <span>Отчеты </span>
           </li>
-          <li>
-            <PsychologyOutlinedIcon  className='icon'/>
+          {/* <li>
+            <PsychologyOutlinedIcon className="icon" />
             <span>Logs</span>
-          </li>
+          </li> */}
           <li>
-            <SettingsOutlinedIcon  className='icon'/>
-            <span>Settings</span>
+            <SettingsOutlinedIcon className="icon" />
+            <span>Настройки </span>
           </li>
-          <p className="title">USER</p>
+          {/* <p className="title">USER</p>
 
           <li>
-            <AccountBoxOutlinedIcon  className='icon'/>
+            <AccountBoxOutlinedIcon className="icon" />
             <span>Profile</span>
           </li>
           <li>
-            <LogoutOutlinedIcon  className='icon'/>
+            <LogoutOutlinedIcon className="icon" />
             <span>Logout</span>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="bottom">
         <div className="colorOption"></div>
         <div className="colorOption"></div>
-        <div className="colorOption"></div>
+        {/* <div className="colorOption"></div> */}
       </div>
     </div>
   );
